@@ -15,7 +15,7 @@ article{
 }
 .text-holder{
 	max-height: 200px;
-	padding: 13px 23px 23px 23px;
+	padding: 13px 20px 23px 20px;
 	color: #dbdbdb;
 	border:1px solid;
 	border-top: none;
@@ -37,6 +37,7 @@ article{
 	font-size:11px;
 	color: #8a8a8a;
 	display: block;
+
 }
 .read-more{
 	font-family: 'HelveticaNeue Medium';
@@ -44,9 +45,21 @@ article{
 	background: none;
 	border:none;
 	display: inline-block;
+	position: relative;
+	padding: 10px 10px 10px 22px;
 }
 .read-more:before{
 	content:url('../img/posts/arrows.png');
 	color: #2e2e2e;
 	display: block;
+	position: absolute;
+	top:28%;
+	left: 0;
+}
+.img-box{
+	background-color: #000;
+
+}
+img:hover{
+	opacity: 0.2;
 }

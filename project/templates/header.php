@@ -22,10 +22,11 @@
     <script type="text/javascript">
         var currentPage = '<?php echo $page_title; ?>';
     </script>
+</script>
 </head>
 <body>
     <div class="wrapper clearfix" role="main">
-    
+
         <a href="home.php"class="logo">Gridzilla</a>
         <div class="search">
     	    <form action="get" class="search-box">
@@ -33,12 +34,12 @@
         	   <button class="icon"><i class="fa fa-search"></i></button>
             </form>
         </div>
-      
+
          <div class="nav clearfix" id= "nav">
     		<nav>
-    			<li><a href="home.php" class="">HOME</a></li>
+    			<li><a href="home.php">HOME</a></li>
     			<li><a href="#">ABOUT</a></li>
     			<li><a href="#">BLOG</a></li>
-    			<li><a href="contacts.php">CONTACT</a></li>
+    			<li><a href="Contacts.php">CONTACT</a></li>
     		</nav>
         </div>
