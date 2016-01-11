@@ -10,10 +10,18 @@
             document.getElementsByTagName("head")[0].appendChild(e);
         }
     </script>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-<script>
-    $('a[href="' + this.location.pathname + '"]')this.addClass('active');
-</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/application.js"></script>
+        <script>(function() {
+    var nav = document.getElementById('nav'),
+        anchor = nav.getElementsByTagName('a'),
+        current = window.location.pathname.split('/')[3];
+        for (var i = 0; i < anchor.length; i++) {
+        if(anchor[i].href.split('/')[5] == current) {
+            anchor[i].className = "active";
+        }
+    }
+})();
+ </script>
 </body>
 </html>

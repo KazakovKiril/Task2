@@ -16,13 +16,12 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/header.css">
 
-    <?php if($page_title == 'Contacts') { ?>
+   <?php if($page_title == 'Contacts') { ?>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXSvNhrGGECmJMZKs3Ewbz32jVRvLTTq4&language=en"></script>
     <?php } ?>
     <script type="text/javascript">
         var currentPage = '<?php echo $page_title; ?>';
     </script>
-</script>
 </head>
 <body>
     <div class="wrapper clearfix" role="main">
@@ -35,11 +34,11 @@
             </form>
         </div>
 
-         <div class="nav clearfix" id= "nav">
-    		<nav>
+         <div class="nav clearfix">
+    		<nav id="nav">
     			<li><a href="home.php">HOME</a></li>
     			<li><a href="#">ABOUT</a></li>
     			<li><a href="#">BLOG</a></li>
-    			<li><a href="Contacts.php">CONTACT</a></li>
+    			<li><a href="contacts.php">CONTACT</a></li>
     		</nav>
         </div>
