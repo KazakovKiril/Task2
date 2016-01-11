@@ -10,7 +10,9 @@
             document.getElementsByTagName("head")[0].appendChild(e);
         }
     </script>
+    
     <script src="js/plugins.js"></script>
-    <script src="js/application.js"></script>
+    <script src="js/application.js"></script>   
+    
 </body>
 </html>
