@@ -15,9 +15,11 @@
         <script>(function() {
     var nav = document.getElementById('nav'),
         anchor = nav.getElementsByTagName('a'),
-        current = window.location.pathname.split('/')[3];
+        arr = window.location.pathname.split('/');
+        current = window.location.pathname.split('/')[arr.length-1];
         for (var i = 0; i < anchor.length; i++) {
-        if(anchor[i].href.split('/')[5] == current) {
+            var pathLenght = anchor[i].href.split('/');
+        if(anchor[i].href.split('/')[pathLenght.length-1] == current) {
             anchor[i].className = "active";
         }
     }
