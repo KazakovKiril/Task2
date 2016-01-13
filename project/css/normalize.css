@@ -134,7 +134,7 @@ dfn {
 
 h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0;
 }
 
 /**
@@ -480,6 +480,15 @@ FONTS USE
     font-weight: normal;
     font-style: normal;
 }
+
+
+
+
+
+
+
+
+
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -487,4 +496,6 @@ FONTS USE
      content: " ";
      clear: both;
      height: 0;
+
  }
+

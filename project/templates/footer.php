@@ -22,5 +22,18 @@
     </script>
     <script src="js/plugins.js"></script>
     <script src="js/application.js"></script>
+        <script>(function() {
+    var nav = document.getElementById('nav'),
+        anchor = nav.getElementsByTagName('a'),
+        arr = window.location.pathname.split('/');
+        current = window.location.pathname.split('/')[arr.length-1];
+        for (var i = 0; i < anchor.length; i++) {
+            var pathLenght = anchor[i].href.split('/');
+        if(anchor[i].href.split('/')[pathLenght.length-1] == current) {
+            anchor[i].className = "active";
+        }
+    }
+})();
+ </script>
 </body>
 </html>

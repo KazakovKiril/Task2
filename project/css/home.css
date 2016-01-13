@@ -1,0 +1,65 @@
+.article-column{
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+.article-column:last-child{
+	margin-right: 0px;
+}
+img{
+	display: block;
+}
+article{
+	margin-bottom: 20px;
+	width: 220px;
+}
+.text-holder{
+	max-height: 200px;
+	padding: 13px 20px 23px 20px;
+	color: #dbdbdb;
+	border:1px solid;
+	border-top: none;
+}
+.text-holder p {
+	font-family: 'HelveticaNeue';
+	color: #2f2f2f;
+	font-size: 12px;
+	margin:18px 0;
+}
+.text-holder h2 {
+	font-family: 'HelveticaNeue Medium';
+	color: #2e2e2e;
+	font-size: 18px;
+	margin:0 0 2px 0;
+}
+.text-holder span{
+	font-family: 'HelveticaNeue';
+	font-size:11px;
+	color: #8a8a8a;
+	display: block;
+
+}
+.read-more{
+	font-family: 'HelveticaNeue Medium';
+	color:#2e2e2e;
+	background: none;
+	border:none;
+	display: inline-block;
+	position: relative;
+	padding: 10px 10px 10px 22px;
+}
+.read-more:before{
+	content:url('../img/posts/arrows.png');
+	color: #2e2e2e;
+	display: block;
+	position: absolute;
+	top:28%;
+	left: 0;
+}
+.img-box{
+	background-color: #000;
+
+}
+img:hover{
+	opacity: 0.2;
+}
