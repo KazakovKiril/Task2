@@ -1,0 +1,121 @@
+article img {
+    float: left;
+    margin-right: 40px;
+    margin-top: 2px;
+}
+article p {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'HelveticaNeue';
+    margin-bottom: 20px;
+}
+p span {
+    font-size: 36px;
+    color: #f03c3c;
+    font-family: "HelveticaNeue";
+    font-weight: bold;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+}
+.intro-text {
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'HelveticaNeue';
+}
+cite {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'HelveticaNeue';
+    font-style: italic;
+}
+.change {
+    font-size: 72px;
+    color: #f03c3c;
+    font-family: "HelveticaNeue";
+    float: left;
+    margin-top: -14px;
+    margin-right: 13px;
+}
+.align-left {
+    float: left;
+    width: 46%;
+}
+.align-right {
+    float: left;
+    width: 46%;
+    margin-left: 68px;
+}
+.three-columns div {
+    float: left;
+    width: 33%;
+}
+.buttons button {
+    width: 100px;
+    height: 36px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'HelveticaNeue';
+    font-weight: bold;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: 0;
+    color: #fff;
+}
+.box-butt:nth-child(1) {
+    background-color: #91b031;
+}
+.box-butt:nth-child(2) {
+    background-color: #c4c5c5;
+}
+.box-butt:nth-child(3) {
+    background-color: #6197f0;
+}
+.box-butt:nth-child(4) {
+    background-color: #eb673a;
+}
+.box-butt:nth-child(5) {
+    background-color: #ec74eb;
+}
+.box-butt:nth-child(6) {
+    background-color: #e54445;
+}
+.box-butt:nth-child(7) {
+    background-color: #51cfd9;
+}
+.alerts div {
+    width: 938px;
+    height: 62px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.alerts div:nth-child(1) {
+    background-color: #effeb9;
+    border:1px solid #98c601;
+    color: #98c601;
+    margin-top: 35px;
+}
+.alerts div:nth-child(2) {
+    background-color: #fbcbc1;
+    border:1px solid #eb5439;
+    color: #ee6f5b;
+}
+.alerts div:nth-child(3) {
+    background-color: #ffe9ad;
+    border:1px solid #fab418;
+    color: #fab418;
+}
+.alerts div:nth-child(4) {
+    background-color: #d1e4f3;
+    border:1px solid #4d8fcb;
+    color: #4d8fcb;
+    margin-bottom: 44px;
+}
+.alerts div p {
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+    font-family: 'HelveticaNeue';
+    padding: 6px;
+}

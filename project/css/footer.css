@@ -1,0 +1,56 @@
+.twitter {
+    width: 37px;
+    height: 37px;
+    background-image: url(../img/Twitter.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-style: none;
+}
+.rss {
+    width: 37px;
+    height: 37px;
+    background-image: url(../img/rss.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-style: none;
+}
+.facebook {
+    width: 37px;
+    height: 37px;
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-style: none;
+}
+.pinterest {
+    width: 37px;
+    height: 37px;
+    background-image: url(../img/pinterest.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-style: none;
+}
+.social {
+    float-left;
+    display: inline-block;
+}
+.freebies {
+    float: right;
+}
+.freebies span:first-child {
+    font-size: 12px;
+    line-height: 23px;
+    font-family: 'HelveticaNeue';
+    font-weight: bold;
+    padding-left: 37px;
+}
+.freebies span:last-child {
+    font-size: 11px;
+    line-height: 23px;
+    font-family: 'HelveticaNeue';
+    display: block;
+}
+footer {
+    border-top: 1px solid #ececec;
+    padding-top: 24px;
+}
